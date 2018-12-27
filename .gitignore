@@ -1,0 +1,33 @@
+# Ignore Mac DS_Store files
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# lock files
+.package-lock.json
+package-lock.json
+yarn.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build
+build/*/*
+build/Release
+dist/*
+
+# Dependency directories
+node_modules
+
+# --------------- #
+#  Editor config  #
+# --------------- #
+
+## IDEA:
+.idea/
